@@ -45,7 +45,7 @@ public class RotatedSearch {
             if (mid > start && arr[mid]<arr[mid-1]){
                 return mid-1;
             }
-            if(arr[mid]<=start){
+            if(arr[mid]<=arr[start]){
                 end=mid-1;
             }
             else{
